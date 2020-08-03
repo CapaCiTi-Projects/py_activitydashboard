@@ -1,0 +1,29 @@
+{
+  "username": "<username>",
+  "courses": {
+    "HTML & CSS 101": [
+      {
+        "name": "Week 1: Gathering",
+        "days": [
+          {
+            "name": "<activity_name>",
+            "day": "",
+            "completed": false
+          },
+          {
+            "name": "<activity_name>",
+            "completed": false
+          },
+          {
+            "name": "<activity_name>",
+            "completed": false
+          },
+          {
+            "name": "<activity_name>",
+            "completed": false
+          }
+        ]
+      }
+    ]
+  }
+}

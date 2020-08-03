@@ -1,0 +1,76 @@
+{% extends "dashboard/page.html" %}
+
+{% block dashboard_content %}
+<div id="pivot"></div>
+<div id="pivot_chart"></div>
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+    var pivot = new Flexmonster({
+        container: "#pivot",
+        componentFolder: "https://cdn.flexmonster.com/",
+        toolbar: false,
+        height: 750,
+        licenseKey: "Z7IR-XC325H-4W4F19-284J3W",
+        report: {
+            dataSource: {
+                type: "api",
+                url: "http://localhost:9204/mongo",
+                index: "stats"
+            },
+            slice: {
+                rows: [
+                    {
+                        uniqueName: "_id",
+                        caption: "Identifier"
+                    }
+                ],
+                formats: [
+                    {
+                        name: "percentage",
+                        decimalSeparator: ",",
+                        maxDecimalPlaces: "2",
+                        isPercent: true
+                    }
+                ],
+                measures: [
+                    {
+                        uniqueName: "activity_perc",
+                        caption: "Activity Percentage",
+                        formula: "SUM('activities_completed') / SUM('activities_total')",
+                        format: "percentage"
+                    },
+                    {
+                        uniqueName: "reflection_perc",
+                        caption: "Reflection Percentage",
+                        formula: "SUM('reflections_completed') / SUM('reflections_total')",
+                        format: "percentage"
+                    },
+                    {
+                        uniqueName: "sprint_perc",
+                        caption: "Sprint Percentage",
+                        formula: "SUM('sprints_completed') / SUM('sprints_total')",
+                        format: "percentage"
+                    }
+                ],
+                reportFilters: [
+                    {
+                        uniqueName: "course"
+                    }
+                ]
+            },
+            options: {
+                viewType: "grid_charts",
+                chart: {
+                    type: "line"
+                }
+            },
+        },
+        filter: {
+            query: ""
+        }
+    });
+</script>
+{% endblock %}

@@ -1,0 +1,19 @@
+{% load static %}
+<div class="header">
+    <div class="header-left">
+        <p class="header-title">Activities Manager</p>
+    </div>
+    <div class="header-centre">
+        <img class="logo" src="{% static 'dashboard/img/logo.svg' %}" alt="Activ8 Logo" />
+    </div>
+    <div class="header-right">
+        <div class="header-account">
+            <p class="header-account-name">
+                <span class="header-account-info">Your Account</span>
+                <span class="header-account-name-main">{{ user.username }}</span>
+                <a class="header-account-name-alt" href="{{ logout_url }}">Logout</a>
+            </p>
+            <span class="jam jam-user-circle header-account-icon"></span>
+        </div>
+    </div>
+</div>

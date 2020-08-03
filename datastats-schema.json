@@ -1,0 +1,42 @@
+[
+  {
+    "course": "HTML & CSS 101",
+    "week": "Week 1: Information gathering techniques and Project documentation",
+    "activities_completed": 15,
+    "activities_total": 15,
+    "reflections_completed": 5,
+    "reflections_total": 5,
+    "sprints_completed": 1,
+    "sprints_total": 1
+  },
+  {
+    "course": "HTML & CSS 101",
+    "week": "Week 2: Introduction to HyperText MarkUp Language (HTML) and Project Documentation",
+    "activities_completed": 11,
+    "activities_total": 11,
+    "reflections_completed": 5,
+    "reflections_total": 5,
+    "sprints_completed": 1,
+    "sprints_total": 1
+  },
+  {
+    "course": "HTML & CSS 101",
+    "week": "Week 3: Introduction to Cascading Style Sheets (CSS) and Project Documentation",
+    "activities_completed": 11,
+    "activities_total": 11,
+    "reflections_completed": 5,
+    "reflections_total": 5,
+    "sprints_completed": 1,
+    "sprints_total": 1
+  },
+  {
+    "course": "HTML & CSS 101",
+    "week": "Week 4: Project & Documentation Submission",
+    "activities_completed": 6,
+    "activities_total": 8,
+    "reflections_completed": 5,
+    "reflections_total": 5,
+    "sprints_completed": 1,
+    "sprints_total": 1
+  }
+]

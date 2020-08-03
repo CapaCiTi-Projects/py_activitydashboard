@@ -1,0 +1,423 @@
+{
+    "user": "jesse",
+    "hosturl": "https://classes.capaciti.org.za/",
+    "courses": [
+        {
+            "name": "HTML & CSS 101",
+            "weeks": [
+                {
+                    "title": "Information Gathering Techniques and Project Documentation",
+                    "week": 1,
+                    "sprint": true,
+                    "days": [
+                        {
+                            "title": "Introducing the Mzamomtsha Primary School Project",
+                            "day": 1,
+                            "activities": [
+                                {
+                                    "title": "Stakeholder Analysis based on PESTLE",
+                                    "activity": 1,
+                                    "completed": true
+                                },
+                                {
+                                    "title": "Stakeholder Analysis Brainstorm",
+                                    "activity": 2,
+                                    "completed": true
+                                },
+                                {
+                                    "title": "Dev Team & Mentor Meeting",
+                                    "activity": 3,
+                                    "completed": true
+                                },
+                                {
+                                    "title": "Individual Stakeholder Analysis",
+                                    "activity": 4,
+                                    "completed": true
+                                },
+                                {
+                                    "title": "Stakeholder Matrix",
+                                    "activity": 5,
+                                    "completed": true
+                                }
+                            ],
+                            "reflection": true
+                        },
+                        {
+                            "title": "Requirements Gathering",
+                            "day": 2,
+                            "activities": [
+                                {
+                                    "title": "Data Gathering Methods for the Project",
+                                    "activity": 1,
+                                    "completed": true
+                                },
+                                {
+                                    "title": "Discuss with your Fellow Interns",
+                                    "activity": 2,
+                                    "completed": true
+                                },
+                                {
+                                    "title": "Dev Team & Mentor Meeting",
+                                    "activity": 3,
+                                    "completed": true
+                                },
+                                {
+                                    "title": "Simple Use Case Diagrams",
+                                    "activity": 4,
+                                    "completed": "true"
+                                }
+                            ],
+                            "reflection": true
+                        },
+                        {
+                            "title": "Project Planning",
+                            "day": 3,
+                            "activities": [
+                                {
+                                    "title": "Build your Gantt Chart",
+                                    "activity": 1,
+                                    "completed": true
+                                },
+                                {
+                                    "title": "Discuss the Chart with your Dev Team",
+                                    "activity": 2,
+                                    "completed": true
+                                },
+                                {
+                                    "title": "Divide the Project Plan Components",
+                                    "activity": 3,
+                                    "completed": true
+                                }
+                            ],
+                            "reflection": true
+                        },
+                        {
+                            "title": "Project Plan Review & Final Presentations Sprint 1",
+                            "day": 4,
+                            "activities": [
+                                {
+                                    "title": "Prepare your Sprint 1 Presentation",
+                                    "activity": 1,
+                                    "completed": true
+                                },
+                                {
+                                    "title": "Present your Results from Sprint 1",
+                                    "activity": 2,
+                                    "completed": true
+                                }
+                            ],
+                            "reflection": true
+                        },
+                        {
+                            "title": "Additional Activities",
+                            "day": 5,
+                            "activities": [
+                                {
+                                    "title": "Greeting",
+                                    "activity": 1,
+                                    "completed": true
+                                },
+                                {
+                                    "title": "Acknowledgement",
+                                    "activity": 2,
+                                    "completed": true
+                                },
+                                {
+                                    "title": "Questioning",
+                                    "activity": 2,
+                                    "completed": true
+                                }
+                            ],
+                            "reflection": true
+                        }
+                    ]
+                },
+                {
+                    "title": "Introduction to HyperText MarkUp Language (HTML) and Project Documentation",
+                    "week": 2,
+                    "sprint": true,
+                    "days": [
+                        {
+                            "title": "Introduction to HTML",
+                            "day": 1,
+                            "activities": [
+                                {
+                                    "title": "Working on your First HTML Document",
+                                    "activity": 1,
+                                    "completed": true
+                                },
+                                {
+                                    "title": "Basic HTML Tags using the Online HTML Editor",
+                                    "activity": 2,
+                                    "completed": true
+                                },
+                                {
+                                    "title": "HTML Attributes",
+                                    "activity": 3,
+                                    "completed": true
+                                },
+                                {
+                                    "title": "HTML Paragraphs",
+                                    "activity": 4,
+                                    "completed": true
+                                }
+                            ],
+                            "reflection": true
+                        },
+                        {
+                            "title": "HTML Forms",
+                            "day": 2,
+                            "activities": [
+                                {
+                                    "activity": 1,
+                                    "completed": true
+                                },
+                                {
+                                    "activity": 2,
+                                    "completed": true
+                                },
+                                {
+                                    "title": "Form Attributes",
+                                    "activity": 3,
+                                    "completed": true
+                                },
+                                {
+                                    "title": "Designing a Form",
+                                    "activity": 4,
+                                    "completed": true
+                                }
+                            ],
+                            "reflection": true
+                        },
+                        {
+                            "title": "HTML Form Elements",
+                            "day": 3,
+                            "activities": [
+                                {
+                                    "title": "Let's see what you can remember",
+                                    "activity": 1,
+                                    "completed": true
+                                }
+                            ],
+                            "reflection": true
+                        },
+                        {
+                            "title": "Practical Sessions",
+                            "day": 4,
+                            "activities": [
+                                {
+                                    "title": "Concept Practice",
+                                    "activity": 1,
+                                    "completed": true
+                                },
+                                {
+                                    "title": "Diagram Implementation",
+                                    "activity": 2,
+                                    "completed": true
+                                }
+                            ],
+                            "reflection": true
+                        },
+                        {
+                            "title": "Sprint 2 Presentation",
+                            "day": 5,
+                            "activities": [
+                                {
+                                    "title": "Sprint 2 Preparation",
+                                    "activity": 1,
+                                    "completed": true
+                                },
+                                {
+                                    "title": "Present your Results from Sprint 2",
+                                    "activity": 2,
+                                    "completed": true
+                                }
+                            ],
+                            "reflection": true
+                        }
+                    ]
+                },
+                {
+                    "title": "Introduction to Cascading Style Sheets (CSS) and Project Documentation",
+                    "week": 3,
+                    "sprint": true,
+                    "days": [
+                        {
+                            "title": "Introduction to CSS",
+                            "day": 1,
+                            "activities": [
+                                {
+                                    "activity": 1,
+                                    "completed": true
+                                },
+                                {
+                                    "title": "Know your Flexbox",
+                                    "completed": true
+                                }
+                            ],
+                            "reflection": true
+                        },
+                        {
+                            "title": "Implementing the Flexbox Model",
+                            "day": 2,
+                            "activities": [
+                                {
+                                    "title": "Flexbox Implementation",
+                                    "activity": 1,
+                                    "completed": true
+                                },
+                                {
+                                    "title": "Let's see what you can remember",
+                                    "activity": 2,
+                                    "completed": true
+                                },
+                                {
+                                    "title": "Dev Team Meetup",
+                                    "activity": 3,
+                                    "completed": true
+                                }
+                            ],
+                            "reflection": true
+                        },
+                        {
+                            "title": "Design the HTML / CSS setup Model using the Flexbox Model",
+                            "day": 3,
+                            "activities": [
+                                {
+                                    "title": "Dev Team Flexbox Implementation",
+                                    "activity": 1,
+                                    "completed": true
+                                }
+                            ],
+                            "reflection": true
+                        },
+                        {
+                            "title": "Flexbox Implementation Continued",
+                            "day": 4,
+                            "activities": [
+                                {
+                                    "activity": 1,
+                                    "completed": true
+                                },
+                                {
+                                    "title": "Continuation of Dev Team Flexbox Implementation",
+                                    "activity": 2,
+                                    "completd": true
+                                },
+                                {
+                                    "title": "Skills Development Reflection",
+                                    "activity": 3,
+                                    "completed": false
+                                }
+                            ],
+                            "reflection": true
+                        },
+                        {
+                            "title": "Sprint 3 Submission and Presentation",
+                            "day": 5,
+                            "activities": [
+                                {
+                                    "title": "Continuation of Dev Team Flexbox Implementation",
+                                    "activity": 1,
+                                    "completed": true
+                                },
+                                {
+                                    "title": "Present your Results from Sprint 3",
+                                    "activity": 2,
+                                    "completed": true
+                                }
+                            ],
+                            "reflection": true
+                        }
+                    ]
+                },
+                {
+                    "title": "Project & Documentation Submission",
+                    "week": 4,
+                    "sprint": true,
+                    "days": [
+                        {
+                            "title": "Content Gathering for Mzamomtsha Primary School",
+                            "day": 1,
+                            "activities": [
+                                {
+                                    "title": "Content Gathering",
+                                    "activity": 1,
+                                    "compelted": true
+                                }
+                            ],
+                            "reflection": true
+                        },
+                        {
+                            "title": "Integrate the Mzamomtsha Primary School Website",
+                            "day": 2,
+                            "activities": [
+                                {
+                                    "title": "Mzamomtsha Primary School Project Documentation",
+                                    "activity": 1,
+                                    "completed": true
+                                }
+                            ],
+                            "reflection": true
+                        },
+                        {
+                            "title": "Launch of Website on cPanel",
+                            "day": 3,
+                            "activities": [
+                                {
+                                    "title": "Launch of Website on cPanel",
+                                    "completed": true
+                                },
+                                {
+                                    "title": "Uploading your Website using cPanel",
+                                    "activity": 2,
+                                    "completed": true
+                                },
+                                {
+                                    "title": "Managing Files using the File Manager",
+                                    "activity": 2,
+                                    "compeleted": true
+                                }
+                            ],
+                            "reflection": true
+                        },
+                        {
+                            "title": "Portfolio of Evidence",
+                            "day": 4,
+                            "activities": [
+                                {
+                                    "title": "Creating a Portfolio of Evidence",
+                                    "activity": 1,
+                                    "completed": true
+                                },
+                                {
+                                    "title": "Peer Review",
+                                    "activity": 2,
+                                    "completed": true
+                                }
+                            ],
+                            "reflection": true
+                        },
+                        {
+                            "title": "Presentation of Project",
+                            "day": 5,
+                            "activities": [
+                                {
+                                    "title": "Group Dynamics Reflection",
+                                    "activity": 1,
+                                    "completed": true
+                                },
+                                {
+                                    "title": "Presentation of Projects",
+                                    "activity": 2,
+                                    "complete": true
+                                }
+                            ],
+                            "reflection": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
