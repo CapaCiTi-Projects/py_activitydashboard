@@ -3,11 +3,12 @@
 <!DOCTYPE html>
 
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-    <title>Title</title>
+    <title>Dashboard</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
@@ -17,6 +18,7 @@
     <link rel="stylesheet" type="text/css" href="{% static 'dashboard/styles/commons.css' %}" />
     <link rel="stylesheet" type="text/css" href="{% static 'dashboard/styles/header.css' %}" />
 </head>
+
 <body>
     <header id="page-header">
         {% include "dashboard/header.html" %}
@@ -32,4 +34,5 @@
     <script src="https://cdn.flexmonster.com/flexmonster.js" crossorigin></script>
     {% block scripts %}{% endblock %}
 </body>
+
 </html>

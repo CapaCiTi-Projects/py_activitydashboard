@@ -2,74 +2,87 @@
 
 {% block dashboard_content %}
 <div id="pivot"></div>
-<div id="pivot_chart"></div>
-
 {% endblock %}
 
 {% block scripts %}
-<script>
+<script crossorigin="">
     var pivot = new Flexmonster({
         container: "#pivot",
         componentFolder: "https://cdn.flexmonster.com/",
-        toolbar: false,
-        height: 750,
+        toolbar: true,
         licenseKey: "Z7IR-XC325H-4W4F19-284J3W",
         report: {
-            dataSource: {
-                type: "api",
-                url: "http://localhost:9204/mongo",
-                index: "stats"
+            "dataSource": {
+                "type": "api",
+                "url": "http://localhost:9204/mongo",
+                "index": "stats"
             },
-            slice: {
-                rows: [
+            "slice": {
+                "rows": [
                     {
-                        uniqueName: "_id",
-                        caption: "Identifier"
-                    }
-                ],
-                formats: [
-                    {
-                        name: "percentage",
-                        decimalSeparator: ",",
-                        maxDecimalPlaces: "2",
-                        isPercent: true
-                    }
-                ],
-                measures: [
-                    {
-                        uniqueName: "activity_perc",
-                        caption: "Activity Percentage",
-                        formula: "SUM('activities_completed') / SUM('activities_total')",
-                        format: "percentage"
+                        uniqueName: "user",
+                        filter: {
+                            query: {
+                                "equal": "{{ user.username }}"
+                            }
+                        }
                     },
-                    {
-                        uniqueName: "reflection_perc",
-                        caption: "Reflection Percentage",
-                        formula: "SUM('reflections_completed') / SUM('reflections_total')",
-                        format: "percentage"
-                    },
-                    {
-                        uniqueName: "sprint_perc",
-                        caption: "Sprint Percentage",
-                        formula: "SUM('sprints_completed') / SUM('sprints_total')",
-                        format: "percentage"
-                    }
-                ],
-                reportFilters: [
                     {
                         uniqueName: "course"
+                    },
+                    {
+                        uniqueName: "week"
+                    }
+                ],
+                "measures": [
+                    {
+                        uniqueName: "act_perc",
+                        caption: "Activities Percentage",
+                        formula: "'activities_completed' / 'activities_total'",
+                        format: "work_done"
+                    },
+                    {
+                        uniqueName: "ref_perc",
+                        caption: "Reflections Percentage",
+                        formula: "'reflections_completed' / 'reflections_total'",
+                        format: "work_done"
+                    },
+                    {
+                        uniqueName: "sprints_completed",
+                        caption: "Sprints Percentage",
+                        formula: "'sprints_completed' / 'sprints_total'",
+                        format: "work_done"
+                    }
+                ],
+                "reportFilters": [
+                    {
+                        uniqueName: "course"
+                    },
+                    {
+                        uniqueName: "week"
                     }
                 ]
             },
-            options: {
-                viewType: "grid_charts",
-                chart: {
-                    type: "line"
+            "formats": [
+                {
+                    name: "work_done",
+                    isPercent: true
                 }
-            },
-        },
-        filter: {
-            query: ""
+            ],
+            "conditions": [
+                {
+                    formula: "#value < .8",
+                    format: {
+                        backgroundColor: "#fa5"
+                    }
+                },
+                {
+                    formula: "#value >= .8",
+                    format: {
+                        backgroundColor: "#5f5"
+                    }
+                }
+            ]
         }
     });
 </script>
